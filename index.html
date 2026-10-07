@@ -1,0 +1,651 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mazda Kenya | Drive Your Story</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            MAZDA<span>KENYA</span>
+            <small>DRIVE YOUR STORY</small>
+        </a>
+
+        <nav id="nav">
+
+            <a href="#home">Home</a>
+
+            <a href="#cars">Mazda Cars</a>
+
+            <a href="#about">About</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="icon-btn" id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon-btn menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                MAZDA • KENYA • PERFORMANCE
+            </p>
+
+            <h1>
+                DRIVE YOUR
+                <br>
+                <span>STORY.</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover Mazda vehicles designed around
+                performance, comfort, technology and the
+                joy of driving.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#cars" class="btn btn-red">
+                    Explore Mazda
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#trailer" class="btn btn-outline">
+
+                    <i class="fa-solid fa-play"></i>
+
+                    Watch Trailer
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="scroll">
+            SCROLL
+            <span></span>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TRAILER
+    ========================== -->
+
+    <section class="trailer section" id="trailer">
+
+        <div class="trailer-video">
+
+            <iframe
+                src="https://www.youtube.com/embed/jNdUd4Uo7xM?si=anPUvTvgXDylt5XZ"
+                title="Mazda Kenya Car Trailer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+
+        <div class="trailer-copy">
+
+            <p class="eyebrow red">
+                MAZDA EXPERIENCE
+            </p>
+
+            <h2>
+                THE DRIVE
+                <span>BEGINS HERE.</span>
+            </h2>
+
+            <p>
+                Experience the design, performance and
+                technology that make every Mazda journey
+                memorable.
+            </p>
+
+            <a href="#cars" class="text-link">
+
+                Explore Mazda models
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAZDA VEHICLES
+    ========================== -->
+
+    <section class="cars section" id="cars">
+
+        <div class="section-heading">
+
+            <p class="eyebrow red">
+                FEATURED MAZDA VEHICLES
+            </p>
+
+            <h2>
+                CHOOSE YOUR
+                <span>MAZDA</span>
+            </h2>
+
+            <p>
+                Explore our featured Mazda models and
+                find the right vehicle for your journey.
+            </p>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="suv">
+                SUV
+            </button>
+
+            <button class="filter" data-filter="sedan">
+                Sedan
+            </button>
+
+            <button class="filter" data-filter="crossover">
+                Crossover
+            </button>
+
+        </div>
+
+
+        <!-- CAR GRID -->
+
+        <div class="car-grid">
+
+
+            <!-- MAZDA CX-5 -->
+
+            <article
+                class="car-card"
+                data-category="suv">
+
+                <div class="car-img">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85"
+                        alt="Mazda CX-5">
+
+                    <span class="tag">
+                        SUV
+                    </span>
+
+                </div>
+
+
+                <div class="car-info">
+
+                    <h3>
+                        Mazda CX-5
+                    </h3>
+
+                    <p>
+                        2.5L • Automatic • Petrol
+                    </p>
+
+                    <div class="car-bottom">
+
+                        <strong>
+                            KSh 5,250,000
+                        </strong>
+
+                        <a href="#contact">
+                            Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- MAZDA 3 -->
+
+            <article
+                class="car-card"
+                data-category="sedan">
+
+                <div class="car-img">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=85"
+                        alt="Mazda 3 Sedan">
+
+                    <span class="tag">
+                        SEDAN
+                    </span>
+
+                </div>
+
+
+                <div class="car-info">
+
+                    <h3>
+                        Mazda 3 Sedan
+                    </h3>
+
+                    <p>
+                        2.0L • Automatic • Petrol
+                    </p>
+
+                    <div class="car-bottom">
+
+                        <strong>
+                            KSh 4,350,000
+                        </strong>
+
+                        <a href="#contact">
+                            Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- MAZDA CX-30 -->
+
+            <article
+                class="car-card"
+                data-category="crossover">
+
+                <div class="car-img">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=85"
+                        alt="Mazda CX-30">
+
+                    <span class="tag">
+                        CROSSOVER
+                    </span>
+
+                </div>
+
+
+                <div class="car-info">
+
+                    <h3>
+                        Mazda CX-30
+                    </h3>
+
+                    <p>
+                        2.0L • Automatic • Petrol
+                    </p>
+
+                    <div class="car-bottom">
+
+                        <strong>
+                            KSh 4,850,000
+                        </strong>
+
+                        <a href="#contact">
+                            Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- MAZDA CX-60 -->
+
+            <article
+                class="car-card"
+                data-category="suv">
+
+                <div class="car-img">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=1000&q=85"
+                        alt="Mazda CX-60">
+
+                    <span class="tag">
+                        SUV
+                    </span>
+
+                </div>
+
+
+                <div class="car-info">
+
+                    <h3>
+                        Mazda CX-60
+                    </h3>
+
+                    <p>
+                        2.5L • Automatic • Petrol
+                    </p>
+
+                    <div class="car-bottom">
+
+                        <strong>
+                            KSh 7,200,000
+                        </strong>
+
+                        <a href="#contact">
+                            Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT / MARKETING
+    ========================== -->
+
+    <section class="banner" id="about">
+
+        <div class="banner-content">
+
+            <p class="eyebrow">
+                MAZDA KENYA
+            </p>
+
+            <h2>
+                BUILT FOR THE
+                <span>JOY OF DRIVING.</span>
+            </h2>
+
+            <p>
+                Discover stylish design, confident handling
+                and modern technology for Kenyan roads and
+                everyday adventures.
+            </p>
+
+            <a href="#contact" class="btn btn-red">
+                Request Information
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section class="services section" id="services">
+
+        <div class="section-heading">
+
+            <p class="eyebrow red">
+                WHY CHOOSE US
+            </p>
+
+            <h2>
+                MAZDA
+                <span>SERVICES</span>
+            </h2>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service">
+
+                <i class="fa-solid fa-car"></i>
+
+                <h3>
+                    Vehicle Sales
+                </h3>
+
+                <p>
+                    Explore Mazda vehicles and get assistance
+                    choosing a model that suits your needs.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <h3>
+                    Maintenance
+                </h3>
+
+                <p>
+                    Professional vehicle care to help keep
+                    your Mazda performing at its best.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <i class="fa-solid fa-handshake"></i>
+
+                <h3>
+                    Financing
+                </h3>
+
+                <p>
+                    Ask about available financing options
+                    and plan your next Mazda purchase.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="contact section" id="contact">
+
+        <p class="eyebrow red">
+            READY FOR YOUR MAZDA?
+        </p>
+
+        <h2>
+            START YOUR
+            <span>JOURNEY.</span>
+        </h2>
+
+        <p>
+            Contact us for availability, pricing,
+            test drives and more information.
+        </p>
+
+
+        <div class="contact-buttons">
+
+            <a
+                class="btn btn-red"
+                href="mailto:info@mazdakenya.com">
+
+                Email Us
+
+            </a>
+
+
+            <a
+                class="btn btn-outline"
+                href="https://wa.me/254700000000">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                WhatsApp Us
+
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div>
+
+        <a href="#home" class="logo">
+
+            MAZDA<span>KENYA</span>
+
+            <small>
+                DRIVE YOUR STORY
+            </small>
+
+        </a>
+
+        <p>
+            Mazda vehicles.
+            Designed for the joy of driving.
+        </p>
+
+    </div>
+
+
+    <div class="socials">
+
+        <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 Mazda Kenya.
+        All rights reserved.
+    </p>
+
+</footer>
+
+
+<!-- =========================
+     SEARCH
+========================= -->
+
+<div class="search-box" id="searchBox">
+
+    <button id="closeSearch">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h2>
+        Search Mazda
+    </h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="e.g. CX-5, CX-60, Mazda 3...">
+
+</div>
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
